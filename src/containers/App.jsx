@@ -1,13 +1,12 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Video from '../components/Video'
-import EditMotocycle from '../components/EditMotocycle';
 
+import Video from '../components/Video'
+import motolist from '../components/lista'
 const App = () => {
     return (
         <div>
             <Video />
-            <EditMotocycle/>
+            <motolist/>
         </div>
     )
 }
