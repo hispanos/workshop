@@ -1,19 +1,20 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-export const CarList = ({...}) => {
+import '../../db.json'
+import React, {useMemo} from 'react'
+export const MotoList = ({motocycle}) => {
 
-    const cars = useMemo(() => 
-    ...(...),
-    [...]);
+    const motos = useMemo(() => 
+    getmotosByPublisher(motos),
+    [motos]);
   
       return (
         <section>
 
         <div class="d-flex justify-content-start">
         {
-                 ....map(... => (
-                      <... key={....id}
-                      {...} />
+                 motocycle.map( motocycle => (
+                      < motocycle key={ motocycle.id}
+                      {... motocycle} />
                   ))
               }
             </div>
@@ -23,5 +24,3 @@ export const CarList = ({...}) => {
       )
   }
 
-return(
-)
