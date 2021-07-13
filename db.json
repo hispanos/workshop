@@ -1,0 +1,22 @@
+{
+    "motorcycles": [
+        {
+            "id": 1,
+            "trademark": "Honda",
+            "model": "2020",
+            "reference": "CB-650-R"
+        },
+        {
+            "id": 2,
+            "trademark": "Yamaha",
+            "model": "2020",
+            "reference": "Bws X Fi"
+        },
+        {
+            "id": 3,
+            "trademark": "Suzuki",
+            "model": "2021",
+            "reference": "ACCESS 125 FI"
+        }
+    ]
+}
